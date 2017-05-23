@@ -1,0 +1,15 @@
+% Part A plot functions
+
+n=(-5:1:5);
+y=rect(n);
+Figure('1);
+title('Rect function');
+plot(n,y);
+Figure(2);
+y=tri(n);
+title('Triangle function');
+plot(n,y);
+Figure(3);
+title('Unit step function');
+y=ustep(n);
+plot(n,y);
